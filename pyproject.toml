@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oml-skies"
+version = "0.1.0"
+description = "Open Meteo ML utilities for Sydney rain (+7d) and 3-day precipitation."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Adi", email = "adi@example.com" }]
+license = { text = "MIT" }
+dependencies = [
+  "pandas",
+  "requests",
+  "scikit-learn",
+  "joblib",
+  "numpy",
+  "python-dateutil",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/Adi0399/openmeteo-experiments"
+Repository = "https://github.com/Adi0399/openmeteo-experiments"
