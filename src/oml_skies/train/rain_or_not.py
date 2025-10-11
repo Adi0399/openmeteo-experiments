@@ -7,9 +7,9 @@ from sklearn.metrics import (
     average_precision_score, roc_auc_score, f1_score, balanced_accuracy_score
 )
 
-from oml_skies.data.openmeteo_fetch import fetch_archive_daily
-from oml_skies.features.builders import build_features
-from oml_skies.targets.labels import label_rain_plus_7
+from basketball.data.openmeteo_fetch import fetch_archive_daily
+from basketball.features.builders import build_features
+from basketball.targets.labels import label_rain_plus_7
 
 LAT, LON = -33.8678, 151.2073
 DAILY = [
