@@ -32,9 +32,9 @@ Notebooks
 Follow the naming convention:
 notebooks/
 ├─ rain_or_not/
-│ └─ 36120-25SP-<student_id>-experiment_1.ipynb
+│ └─ 36120-25SP-<25410263_id>-experiment_1.ipynb
 └─ precipitation_fall/
-└─ 36120-25SP-<student_id>-experiment_2.ipynb
+└─ 36120-25SP-<25410263>-experiment_2.ipynb
 
 Artifacts
 models/
